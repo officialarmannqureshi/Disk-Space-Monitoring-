@@ -1,0 +1,4 @@
+# to set up cron job task, enter "crontab -e" on command line, then paste the below code
+
+# m h  dom mon dow   command
+0 17 * * * /filepath/disk_usage_monitor.sh
